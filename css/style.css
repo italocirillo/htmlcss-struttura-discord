@@ -25,7 +25,7 @@ header div.contenitore{
     vertical-align: center;
 }
 
-/*MENÙ*/
+/*Menù*/
 nav{
     width: 50%;
     display: flex;
@@ -43,10 +43,31 @@ nav ul{
     
 }
 
-/*LOGIN*/
+/*Login*/
 .login a{
     color: black;
     text-decoration: none;
+    
+}
+
+/*MAIN*/
+
+/*Sezione-1*/
+.sezione-1{
+    background-color: #00008b;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blocco1-A{
+    display: flex;
+    width: 40%;
+    background-color: #ee81ee;
+    height: 200px;
+    
     
 }
 
