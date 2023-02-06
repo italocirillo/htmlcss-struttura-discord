@@ -13,7 +13,7 @@ header{
 
 header div.contenitore{
     width:75%;
-    height: 40px;
+    height: 40px;   /* debug */
     margin:0 auto;
     background-color: #daa521;
     border:2px black;
@@ -21,7 +21,7 @@ header div.contenitore{
 
     display: flex;
     justify-content: space-between;
-    line-height: 40px;
+    line-height: 40px;      /* debug */
     vertical-align: center;
 }
 
@@ -52,22 +52,37 @@ nav ul{
 
 /*MAIN*/
 
-/*Sezione-1*/
-.sezione-1{
-    background-color: #00008b;
-    height: 300px;
+/*Sezioni*/
+.sezione{
+    height: 500px;      /* debug */
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+/*1*/
+.sezione-1{
+    background-color: #00008b;
 }
 .blocco1-A{
     display: flex;
-    width: 40%;
+    width: 40%;     
     background-color: #ee81ee;
-    height: 200px;
-    
-    
+    height: 80%;    /* debug */
 }
 
+/*2*/
+.sezione-2{
+    background-color: #ffffff;
+}
+.blocco2-A{
+    background-color: #1d90ff;
+    width: 50%;     
+    height: 80%;    /* debug */
+}
+.blocco2-B{
+    background-color: #ffc0cb;
+    width: 30%;
+    height: 80%;    /* debug */
+}
