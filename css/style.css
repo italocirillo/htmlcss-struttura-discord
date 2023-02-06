@@ -18,7 +18,9 @@
 /* HEADER */
 header{
     background-color: #add8e6;
-    padding:10px 0px 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 header div.contenitore{
@@ -30,7 +32,7 @@ header div.contenitore{
 
     display: flex;
     justify-content: space-between;
-    line-height: 40px;      /* debug */
+    line-height: 40px;      /*debug*/
     vertical-align: center;
 }
 
@@ -64,8 +66,6 @@ nav ul{
 /*Sezioni*/
 .sezione{
     padding:30px 0px 30px;
-    /* display: flex;
-    align-items: center; */
 }
 
 /*1*/
@@ -103,7 +103,7 @@ nav ul{
 
 /*5*/
 .blocco5-A{        
-    background-color: #ee81ee;
+    background-color: #238b21;
     height: 500px;    /* debug */
     border: 1px dashed black;
 }
@@ -111,4 +111,53 @@ nav ul{
 /* 6 */
 .sezione-nera{
     background-color: #23272a;
+}
+.blocco6-A{        
+    width: 30%;
+    background-color: #f08080;
+    height: 350px;    /* debug */
+    border: 1px dashed black; 
+}
+.blocco6-B{
+    width: 70%;
+    height: 350px;    /* debug */
+    border: 1px dashed black;
+}
+/*Menù*/
+.blocco6-B ul{
+    height: 350px;
+    list-style-type: none;
+
+    display: flex;
+    background-color: #20b1aa;
+}
+.blocco6-B ul li{
+    flex-direction: column;
+    border: 1px dashed white;
+    flex-grow: 1;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 2px;
+    background-color: #23272a;
+    height: 100px;  /*debug*/
+
+    display: flex;
+    align-items: flex-end;
+}
+.blocco-footer{
+    background-color: #7effd4;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Bottone*/
+.blocco-footer button{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+    padding: 0.3rem;
 }
